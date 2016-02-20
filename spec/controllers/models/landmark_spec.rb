@@ -12,7 +12,7 @@ describe "Landmark" do
 
   it "has a name and a year_completed" do 
     expect(@airport.name).to eq("LG Airport")
-    expect(@airport.year_completed).to eq(1950)
+    expect(@airport.year_completed).to eq("1950")
   end
 
   it "belongs to a figure" do 

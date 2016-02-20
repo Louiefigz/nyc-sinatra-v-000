@@ -1,0 +1,7 @@
+<%= @figure.name %><br>
+<%= @figure.landmarks %>
+
+
+<form action="/figures/<%= @figure.id %>/edit" method='post'>
+<input type="submit" value="edit">
+</form>
